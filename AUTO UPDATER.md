@@ -1,1 +1,0 @@
-Este repositório contém um utilitário de atualização automática externa desenvolvido especificamente para o ecossistema Ubuntu (e derivados baseados em Debian). O software opera de forma totalmente isolada em segundo plano, evitando conflitos de permissão de escrita e travamento de arquivos do jogo principal durante o processo de hot-swap
