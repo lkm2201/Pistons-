@@ -1,0 +1,5 @@
+#!/bin/bash
+# Descobre o caminho real do arquivo, mesmo se for chamado por um link em /usr/local/bin
+REAL_PATH=$(readlink -f "${BASH_SOURCE[0]}")
+DIR="$(cd "$(dirname "$REAL_PATH")" && pwd)"
+python3 "$DIR/main.py"
